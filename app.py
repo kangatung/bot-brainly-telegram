@@ -6,7 +6,7 @@ from googlesearch import search
 
 
 #membuka url
-TOKEN ='5941067459:AAFKIIc4FZF1mMGsvNaUYdAmuHdtv8H26uA'
+TOKEN ='YOUR TOKEN'
 webhook = 'https://be1e-178-128-22-127.ap.ngrok.io'
 url = f"https://api.telegram.org/bot{TOKEN}/setWebhook?url={webhook}"
 buka_url = requests.get(url)
